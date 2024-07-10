@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+} */
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.blog-post {
+    background: white;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.blog-post h2 {
+    color: #333;
+}
+
+.blog-post .author, .blog-post .date {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.blog-post .content {
+    font-size: 1em;
+    color: #333;
+    margin-top: 0.5em;
+}
